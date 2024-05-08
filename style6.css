@@ -1,0 +1,39 @@
+body {
+    background-color: antiquewhite;
+}
+form {
+    background-color: aliceblue;
+    width: 40%;
+    height: 34vh;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.div {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-style: oblique;
+}
+input {
+    margin: 6px;
+    height: 42px;
+    width: 380px;
+    border: 0px;
+    border-left: 4px solid black; 
+    border-bottom: black solid 4px;
+    border-radius: 10px;
+    font-size: 17px;
+    outline: none;
+}
+button {
+    height: 35px;
+    width: 190px;
+    margin-left: 105px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: chartreuse;
+    font-size: 19px;
+}

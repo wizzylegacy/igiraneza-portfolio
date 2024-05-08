@@ -1,0 +1,115 @@
+body {
+    background-color:azure;
+}
+.form {
+    margin-top: 30px;
+    margin-left: 470px;
+    background-color:cadetblue;
+    width: 39%;
+    border-radius: 40px;
+}
+.header {
+    background-color: greenyellow;
+    display: flex;
+}
+h3 {
+    margin-left: 5px;
+    margin-right: 160px;
+}
+.container {
+
+}
+img {
+    height: 7vh;
+    margin: 0px;
+}
+.body {
+
+}
+input {
+    height: 35px;
+    font-size: 20px;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.section {
+    display: flex;
+    align-items: center;
+
+}
+.sectio {
+    margin-right: 25px;
+}
+.secti {
+
+}
+.name {
+    
+}
+button {
+    height: 40px;
+    width: 55%;
+    margin-top: 10px;
+    margin-left: 127px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: greenyellow;
+    border: 0px;
+    font-size: 15px;
+}
+label {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.form1 {
+    margin-top: 30px;
+    margin-left: 470px;
+    background-color:cadetblue;
+    width: 39%;
+}
+.first {
+    display: flex;
+}
+.firs input {
+    margin-bottom: 10px;
+}
+.fir input {
+    margin-bottom: 10px;
+}
+.region input {
+    margin-bottom: 10px;
+}
+.address input {
+    margin-bottom: 10px;
+}
+.remember {
+    display: flex;
+}
+.remember label {
+    margin-top: 10px;
+}
+h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.pay {
+    position: absolute;
+    font-size: 22px;
+    animation: button .3s linear;
+    text-align: center;
+    color: rgb(6, 251, 51);
+    margin-left: 100px;
+    display: none;
+}
+.empty {
+    position: absolute;
+    font-size: 20px;
+    animation: button .3s linear;
+    text-align: center;
+    color: red;
+    margin-left: 200px;
+    display: none;
+}

@@ -1,0 +1,163 @@
+.pic {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    height: 70vh;
+    margin-left: 350px;
+    transform: slide 20s infinite;
+}
+.pic {
+    height: 600px;
+    width: 800px;
+    background: url('beautiful-aquarium-for-living-room-ipc174.jpeg');
+    animation: slide 35s infinite;
+    margin: 100px auto;
+}
+@keyframes slide {
+    25%{
+        background: url('cream-sofa-dark-hardwood-floor-ipc128.jpeg');
+    }
+    50%{
+        background: url('modern-beautiful-living-room-interior-brick-wall-ipc592 (1).jpeg');
+    }
+    75% {
+        background: url('modern-wooden-wall-three-box-design-ipc516.jpeg');
+    }
+    100%{
+        background: url('beautiful-aquarium-for-living-room-ipc174.jpeg');
+    }
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+}
+p {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+}
+.section {
+    margin-right: 100px;
+}
+.sectio {
+    background-color: antiquewhite;
+    display: flex;
+    margin-left: 200px;
+}
+h1 {
+    font-size: 40px;
+    margin-left: 180px;
+    font-family: verdana;
+}
+h1:hover {
+    color: cadetblue;
+}
+h2:hover {
+    color: cadetblue;
+}
+.one {
+    width: 2px;
+    height: 150px;
+    background-color:rgb(30, 199, 199) ;
+    margin-top: 40px;
+}
+.foote {
+    display: flex;
+    margin-left: 400px;
+}
+section h3 {
+   font-size: 30px;
+   margin: 20px;
+}
+.on {
+    width: 2px;
+    height: 40px;
+    background-color:brown ;
+    margin-top: 40px;
+}
+.message {
+margin-left: 300px;
+margin-top: 100px;
+}
+input {
+    margin-left: 280px;
+    height: 60px;
+    width: 350px;
+    border-color: black;
+    border-top: 4px;
+    border-right: 4px;
+    border-width: 4px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+button {
+    height: 33px;
+    width: 200px;
+    margin-left: 10px;
+    background-color: coral;
+    color: aliceblue;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0px;
+}
+.messag {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+.success {
+    font-size: 20px;
+    color: chartreuse;
+    position: absolute;
+    animation: button .3s linear;
+    display: none;
+}
+.empty {
+    font-size: 20px;
+    color: red;
+    position: absolute;
+    animation: button .3s linear;
+    display: none;
+}
+@keyframes button {
+    0% {
+        transform: scale(0.1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.header {
+    position: relative;
+    height: 8vh;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+header {
+    text-align: end;
+    color: aliceblue;
+}
+.register {
+    font-size: x-large;
+}
+a:hover {
+    text-decoration: underline;
+    color: lightcoral;
+}
+a {
+    margin: 15px;
+     text-decoration: none;
+     color:black;
+     font-style: italic;
+     font-size: x-large;
+     
+}
+
+

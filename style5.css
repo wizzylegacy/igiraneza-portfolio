@@ -1,0 +1,39 @@
+body {
+    background-color: aliceblue;
+}
+h1  {
+    font-size: 70px;
+    text-align: center;
+}
+.location {
+    margin-left: 220px;
+}
+iframe {
+    filter: invert(100%);
+    border-radius: 30px;
+}
+.header {
+    position: relative;
+    height: 8vh;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+header {
+    text-align: end;
+    color: aliceblue;
+}
+.register {
+    font-size: x-large;
+}
+a:hover {
+    text-decoration: underline;
+    color: lightcoral;
+}
+a {
+    margin: 15px;
+     text-decoration: none;
+     color:black;
+     font-style: italic;
+     font-size: x-large;
+     
+}

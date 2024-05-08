@@ -1,0 +1,54 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    font-size: 90px;
+    font-style: normal;
+}
+h3 {
+    font-size: 25px;
+}
+.telephone {
+    display: flex;
+}
+.email {
+    display: flex;
+}
+.facebook {
+    display: flex;
+}
+.instagram {
+    display: flex;
+}
+.twitter {
+    display: flex;
+}
+i {
+    transform: translateY(+25%);
+    font-size: 40px;
+}
+.header {
+    position: relative;
+    height: 8vh;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+header {
+    text-align: end;
+    color: aliceblue;
+}
+.register {
+    font-size: x-large;
+}
+a:hover {
+    text-decoration: underline;
+    color: lightcoral;
+}
+a {
+    margin: 15px;
+     text-decoration: none;
+     color:black;
+     font-style: italic;
+     font-size: x-large;
+     
+}

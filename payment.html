@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+<body>
+    <div class="form1">
+     <div class="delivery">
+        <h2>Delivery</h2>
+        <div class="region">
+            <input type="text" placeholder="Region/country" id="country" required>
+        </div>
+        <div class="first">
+            <div class="firs">
+                <input type="text" placeholder="First Name" id="first" required>
+            </div>
+            <div class="fir">
+                <input type="text" placeholder="Last Name" id="last" required>
+            </div>
+        </div>
+        </div>
+        <div class="address">
+            <input type="text" placeholder="ADDRESS" id="address" required>
+        </div>
+        <div class="city">
+            <input type="text" placeholder="CITY" id="city" required>
+        </div>
+        <div class="remember">
+            <input type="checkbox" name="" id="">
+            <label>Remember me</label>
+        </div>
+
+    </div>
+
+
+
+    <div class="form">
+    <div class="header">
+        <h3>CREDIT CARD PAYMENT</h3>
+        <div class="container">
+        <img src="294654_visa_icon.png" alt="">
+        <img src="70593_mastercard_curved_icon.png" alt="">
+        <img src="1933704_american express_amex_charge_credit card_payment_icon.png" alt="">
+    </div>
+    </div>
+    <div class="body">
+        <label>CARD NUMBER</label><br>
+        <input type="" placeholder="0000 0000 0000 0000" id="cardnumber" required>
+    </div>
+    <div class="section">
+        <div class="sectio">
+            <label>CARD EXPIRY</label><br>
+            <input type="tel" placeholder="00/0000" id="tel" required>
+        </div>
+        <div class="secti">
+        <label>CVC</label><br>
+        <input type="number" placeholder="000" id="cvc" required>
+        </div>
+    </div>
+    <div class="name">
+        <label>CARD HOLDER NAME</label><br>
+        <input type="name" placeholder="Holder name" id="cardholder" required>
+    </div>
+    <button onclick="btn()">PAY NOW</button>
+    <div class="pay" id="pay">you have successfull paid on wizzy furniture <br>it's pleasure to work with you!!</div>
+    <div class="empty" id="empty">failed it can't be empty</div>
+</div>
+
+
+
+<script>
+    function btn() {
+        const country = document.getElementById('country');
+        const first = document.getElementById('first');
+        const last = document.getElementById('last');
+        const address = document.getElementById('address');
+        const city = document.getElementById('city');
+        const cardNumber = document.getElementById('cardname');
+        const tel = document.getElementById('tel');
+        const cvc = document.getElementById('cvc');
+        const cardHolder = document.getElementById('cardholder');
+
+        const empty = document.getElementById('empty');
+        const pay = document.getElementById('pay')
+
+        if (country.value === '' || first.value === '' || last.value === '' || address.value === '' || cardnumber.value === '' || city.value === '' || tel.value === '' || cvc.value === '' || cardholder.value === '') {
+           empty.style.display = 'block';    
+        }
+        else {
+            pay.style.display = 'block';
+        }
+        setTimeout(() => {
+            empty.style.display = 'none';
+            pay.style.display = 'none';
+        }, 5000);
+    }
+</script>
+</body>
+</html>

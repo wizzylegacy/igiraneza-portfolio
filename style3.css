@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+.header {
+    position: relative;
+    height: 8vh;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+header {
+    text-align: end;
+    color: aliceblue;
+}
+.register {
+    font-size: x-large;
+}
+a:hover {
+    text-decoration: underline;
+    color: lightcoral;
+}
+a {
+    margin: 15px;
+     text-decoration: none;
+     color:black;
+     font-style: italic;
+     font-size: x-large;
+     
+}
+
+section {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: center;
+}
+img {
+    height: 68vh;
+    width: 90%;
+    border: 0px;
+    border-radius: 30px;
+    box-shadow: gray 2px 2px 2px 2px;
+    margin-bottom: 4px;
+}
+button {
+    background-color: chartreuse;
+    height: 30px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+}

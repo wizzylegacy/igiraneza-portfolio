@@ -1,0 +1,33 @@
+.header {
+    position: relative;
+    background-image: url('wizzy.jpg');
+    height: 100vh;
+}
+header {
+    text-align: center;
+    color: aliceblue;
+
+}
+.register {
+    margin-left: 1120px;
+    font-size: 20px;
+}
+a {
+     margin: 30px;
+     text-decoration: none;
+     color: antiquewhite;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    height: 68.5vh;
+}
+.section2 img {
+    height: 71.5vh;
+}
+button {
+    background-color: transparent;  
+    border: 0px;
+
+}

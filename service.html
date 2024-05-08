@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <a href="home.html">HOME</a>
+            <a href="location.html">LOCATION</a>
+            <a href="contact us.html">CONTACT US</a>
+            <a class="register" href="login.html">Register here?</a>
+        </header>  
+       </div>
+   <div class="pic">
+    
+   </div>
+   <div class="word">
+      <h2><b>WE CAN NOW REPAIR YOUR FAVOURITE SOFA!!</b></h2>
+      <P>Our process is simple & uncomplicated.we'll come to your home<br>and work with you to give your sofa the life it deserves</P>
+   </div>
+   <center><div class="section">
+    <h1>OUR SOFA SERVICE</h1>
+    <div class="sectio">
+        <section>
+            <h2><em>SOFA REPAIR</em></h2>
+            <P>Say goodbye to creaks,<br>sags & tears.Get a sturdy<br>&solid sofa.</P>
+        </section>
+
+        <div class="one"></div>
+              
+        <section>
+            <h2><em>SOFA CLEANING</em></h2>
+        <P>Remove stains.No more<br>dust or funky smells lurking<br>in nooks & crannies</P>
+        </section>
+        <div class="one"></div>
+
+        <section>
+            <h2><em>REUPHOLSTERY</em></h2>
+            <P>Choose from tons of<br>design option for<br>every decor style</P>
+        </section>
+
+    </div>
+    <div class="sectio">
+        <section>
+            <h2><em>SCRATCH REPAIR</em></h2>
+            <p>Get rid of chips,scratches<br>&dents.Give your sofa <br>a new life</p>
+        </section>
+        <div class="one"></div>
+
+        <section>
+            <h2><em>ASSEMBLY & DISMANTLING</em></h2>
+            <p>Getting settled in ? let us<br> dismantle or re-assembly your<br> sofa for you.</p>
+        </section>
+        <div class="one"></div>
+
+        <section>
+            <h2><em>WOOD POLISHING</em></h2>
+            <p>Restore your dull looking<br>sofa.Make it look fresh<br>and brand-new.</p>
+        </section>
+    </div>
+   </div></center>
+
+   <center><div class="footer">
+    <h1>SO,WHY YOU MAY CHOOSE US</h1>
+    <div class="foote">
+        <section>
+            <h3>Trusted craftsmanship<br>from Wizzy furniture</h3>
+        </section>
+        <div class="on"></div>
+        <section>
+            <h3>We use original<br>fabrics&trims</h3>
+        </section>
+        <div class="on"></div>
+        <section>
+            <h3>Guaranteed price<br>transparency</h3>
+        </section>
+    </div>
+
+   </div></center>
+
+   <div class="message">
+    <h1>Message us for Quick reply</h1>
+    <input type="text" placeholder="MESSAGE US" id="message">
+    <button onclick="btn()">SEND</button>
+   </div>
+   <div class="messag">
+    <div class="success" id="success">Your message successfull sent</div>
+    <div class="empty" id="empty">Failed can't be empty</div>
+</div>
+
+
+
+<script>
+    function btn() {
+        const success = document.getElementById('success');
+        const empty = document.getElementById('empty');
+        
+        const message = document.getElementById('message');
+        if(message.value === ''){
+            empty.style.display = 'block';
+        }
+        else {
+            success.style.display = 'block';
+        }
+        setTimeout(() => {
+            empty.style.display = 'none';
+            success.style.display= 'none';
+        },5000);
+    }     
+    
+</script>
+</body>
+</html>
